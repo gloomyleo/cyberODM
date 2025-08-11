@@ -1,0 +1,32 @@
+outcome_id,kpi_id,kpi_name,period,kind,value,target,direction
+RR,MTTD,Mean Time to Detect (hrs),2025-Q1,lagging,12,8,down_is_good
+RR,MTTD,Mean Time to Detect (hrs),2025-Q2,lagging,10,8,down_is_good
+RR,MTTR,Mean Time to Respond (hrs),2025-Q1,lagging,24,12,down_is_good
+RR,MTTR,Mean Time to Respond (hrs),2025-Q2,lagging,18,12,down_is_good
+RR,INC,Incident Count (sev2+),2025-Q1,lagging,14,8,down_is_good
+RR,INC,Incident Count (sev2+),2025-Q2,lagging,10,8,down_is_good
+RR,COV,Control Coverage %,2025-Q1,leading,70,90,up_is_good
+RR,COV,Control Coverage %,2025-Q2,leading,80,90,up_is_good
+RR,EFF,Control Effectiveness %,2025-Q1,leading,72,90,up_is_good
+RR,EFF,Control Effectiveness %,2025-Q2,leading,78,90,up_is_good
+
+RC,COMP,Compliance % (scope),2025-Q1,lagging,88,95,up_is_good
+RC,COMP,Compliance % (scope),2025-Q2,lagging,90,95,up_is_good
+RC,AUD,Audit Findings (open),2025-Q1,lagging,12,4,down_is_good
+RC,AUD,Audit Findings (open),2025-Q2,lagging,9,4,down_is_good
+RC,POL,Policy Coverage %,2025-Q1,leading,75,95,up_is_good
+RC,POL,Policy Coverage %,2025-Q2,leading,82,95,up_is_good
+
+OR,AVAIL,Service Availability %,2025-Q1,lagging,99.5,99.9,up_is_good
+OR,AVAIL,Service Availability %,2025-Q2,lagging,99.6,99.9,up_is_good
+OR,BCP,Recovery Test Success %,2025-Q1,lagging,70,95,up_is_good
+OR,BCP,Recovery Test Success %,2025-Q2,lagging,78,95,up_is_good
+OR,EDR,EDR Coverage %,2025-Q1,leading,88,95,up_is_good
+OR,EDR,EDR Coverage %,2025-Q2,leading,92,95,up_is_good
+
+DP,DLP,DLP Coverage %,2025-Q1,leading,60,90,up_is_good
+DP,DLP,DLP Coverage %,2025-Q2,leading,70,90,up_is_good
+DP,ENC,Encryption Coverage %,2025-Q1,leading,75,95,up_is_good
+DP,ENC,Encryption Coverage %,2025-Q2,leading,82,95,up_is_good
+DP,BRCH,Breach Incidents,2025-Q1,lagging,3,0,down_is_good
+DP,BRCH,Breach Incidents,2025-Q2,lagging,1,0,down_is_good

@@ -1,0 +1,11 @@
+weights:
+  leading: 0.5
+  lagging: 0.5
+rag_thresholds:
+  red: 0.5
+  amber: 0.75
+periods:
+  - 2025-Q1
+  - 2025-Q2
+  - 2025-Q3
+currency: USD

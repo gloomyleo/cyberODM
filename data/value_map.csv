@@ -1,0 +1,15 @@
+kpi_id,hypothesis,unit_value_usd
+MTTD,avoidance,2000
+MTTR,efficiency,1500
+INC,avoidance,50000
+COV,avoidance,500
+EFF,avoidance,700
+COMP,regulatory,1000
+AUD,regulatory,10000
+POL,regulatory,800
+AVAIL,revenue_protect,200000
+BCP,avoidance,30000
+EDR,avoidance,600
+DLP,avoidance,400
+ENC,avoidance,350
+BRCH,avoidance,250000

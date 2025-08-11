@@ -1,0 +1,5 @@
+outcome_id,name,owner,weight,okr_target_pct
+RR,Risk Reduction,A. Patel,1.0,80
+RC,Regulatory Confidence,S. Lee,0.8,85
+OR,Operational Resilience,J. Nguyen,1.0,90
+DP,Data Protection,M. Khan,0.9,85

@@ -1,0 +1,5 @@
+init_id,outcome_id,name,owner,start,end,status,expected_value_usd
+I1,RR,MTTR playbooks,T. Chen,2025-01,2025-05,active,150000
+I2,RC,Policy automation,S. Lee,2025-02,2025-07,planned,80000
+I3,OR,Failover expansion,J. Nguyen,2025-03,2025-09,active,220000
+I4,DP,DLP Phase 1,M. Khan,2025-01,2025-06,active,120000

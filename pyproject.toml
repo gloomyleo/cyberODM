@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cyberodm"
+version = "0.1.0"
+description = "CyberODM: Outcome-Driven Metrics for cybersecurity with value realization, OKR alignment, and executive reporting"
+readme = "README.md"
+authors = [{name = "Mo"}, {name="Contributors"}]
+license = {text = "MIT"}
+requires-python = ">=3.9"
+dependencies = [
+  "pandas>=2.0",
+  "pyyaml>=6.0",
+  "matplotlib>=3.8",
+  "streamlit>=1.31",
+  "python-pptx>=0.6.21"
+]
+
+[project.scripts]
+cyberodm = "cyberodm.cli:main"
